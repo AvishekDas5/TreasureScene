@@ -154,13 +154,13 @@ def itsCatTime():
 
         # ----------------------------------------------------- Submit Button --------------------------------------
 #   Including the image of submit button
-submit = Image.open("D:/Projects/Projects/Human Verification Captcha/SUBMIT.png")
+submit = Image.open("Human Verification Captcha\SUBMIT.png")
 submit_photo1 = ImageTk.PhotoImage(submit)
 
 # Resizing the btn
 
-resized = submit.resize((140, 80), Image.ANTIALIAS)
-submit = ImageTk.PhotoImage(file="D:/Projects/Projects/Human Verification Captcha/SUBMIT.png")
+resized = submit.resize((140, 80), Image.LANCZOS)
+submit = ImageTk.PhotoImage(file="Human Verification Captcha\SUBMIT.png")
 submit_pic1 = ImageTk.PhotoImage(resized)
 
 # ---------------------------------------------------------------------------------------------------------
@@ -179,7 +179,7 @@ Submit_btn_button = Button(root, image=submit_pic1, borderwidth = 0, bg = "white
 
 # Resizing the btn
 
-#resized = refresh.resize((120, 180), Image.ANTIALIAS)
+#resized = refresh.resize((120, 180), Image.LANCZOS)
 #refresh = ImageTk.PhotoImage(file="D:/refresh.png")
 #refresh_pic1 = ImageTk.PhotoImage(resized)
 
@@ -280,54 +280,54 @@ def clicked_road5():
 #   Including the images
 
 bridge1 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge1.jpeg")
+    "Human Verification Captcha/IMAGES/nature/bridge1.jpeg")
 photo1 = ImageTk.PhotoImage(bridge1)
 
 # Resizing
 
-resized = bridge1.resize((200, 200), Image.ANTIALIAS)
+resized = bridge1.resize((200, 200), Image.LANCZOS)
 bridge1 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge1.jpeg")
+    file="Human Verification Captcha/IMAGES/nature/bridge1.jpeg")
 new_pic1 = ImageTk.PhotoImage(resized)
 
 
 #   Including the images
 
 bridge2 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge2.jpg")
+    "Human Verification Captcha/IMAGES/nature/bridge2.jpg")
 photo2 = ImageTk.PhotoImage(bridge2)
 # Resizing
 
-resized = bridge2.resize((200, 200), Image.ANTIALIAS)
+resized = bridge2.resize((200, 200), Image.LANCZOS)
 bridge2 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge2.jpg")
+    file="Human Verification Captcha/IMAGES/nature/bridge2.jpg")
 new_pic2 = ImageTk.PhotoImage(resized)
 
 #   Including the images
 
 bridge3 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge3.jpg")
+    "Human Verification Captcha/IMAGES/nature/bridge3.jpg")
 photo3 = ImageTk.PhotoImage(bridge3)
 
 # Resizing
 
-resized = bridge3.resize((200, 200), Image.ANTIALIAS)
+resized = bridge3.resize((200, 200), Image.LANCZOS)
 bridge3 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge3.jpg")
+    file="Human Verification Captcha/IMAGES/nature/bridge3.jpg")
 new_pic3 = ImageTk.PhotoImage(resized)
 
 
 #  Including the images
 
 bridge4 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge4.jpeg")
+    "Human Verification Captcha/IMAGES/nature/bridge4.jpeg")
 photo4 = ImageTk.PhotoImage(bridge4)
 
 # Resizing
 
-resized = bridge4.resize((200, 200), Image.ANTIALIAS)
+resized = bridge4.resize((200, 200), Image.LANCZOS)
 bridge4 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/bridge4.jpeg")
+    file="Human Verification Captcha/IMAGES/nature/bridge4.jpeg")
 new_pic4 = ImageTk.PhotoImage(resized)
 
 ########################################################
@@ -338,68 +338,68 @@ new_pic4 = ImageTk.PhotoImage(resized)
 #   Including the road images
 
 road1 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road1.jpeg")
+    "Human Verification Captcha/IMAGES/nature/road1.jpeg")
 road_photo1 = ImageTk.PhotoImage(road1)
 
 # Resizing
 
-resized = road1.resize((200, 200), Image.ANTIALIAS)
+resized = road1.resize((200, 200), Image.LANCZOS)
 road1 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road1.jpeg")
+    file="Human Verification Captcha/IMAGES/nature/road1.jpeg")
 road_pic1 = ImageTk.PhotoImage(resized)
 
 #   Including the road images
 
 road2 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road2.jpeg")
+    "Human Verification Captcha/IMAGES/nature/road2.jpeg")
 road_photo2 = ImageTk.PhotoImage(road2)
 
 # Resizing
 
-resized = road2.resize((200, 200), Image.ANTIALIAS)
+resized = road2.resize((200, 200), Image.LANCZOS)
 road2 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road2.jpeg")
+    file="Human Verification Captcha/IMAGES/nature/road2.jpeg")
 road_pic2 = ImageTk.PhotoImage(resized)
 
 
 #   Including the road images
 
 road3 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road3.jpg")
+    "Human Verification Captcha/IMAGES/nature/road3.jpg")
 road_photo3 = ImageTk.PhotoImage(road3)
 
 # Resizing
 
-resized = road3.resize((200, 200), Image.ANTIALIAS)
+resized = road3.resize((200, 200), Image.LANCZOS)
 road3 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road3.jpg")
+    file="Human Verification Captcha/IMAGES/nature/road3.jpg")
 road_pic3 = ImageTk.PhotoImage(resized)
 
 
 #   Including the road images
 
 road4 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road4.jpg")
+    "Human Verification Captcha/IMAGES/nature/road4.jpg")
 road_photo4 = ImageTk.PhotoImage(road4)
 
 # Resizing
 
-resized = road4.resize((200, 200), Image.ANTIALIAS)
+resized = road4.resize((200, 200), Image.LANCZOS)
 road4 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road4.jpg")
+    file="Human Verification Captcha/IMAGES/nature/road4.jpg")
 road_pic4 = ImageTk.PhotoImage(resized)
 
 #   Including the road images
 
 road5 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road5.jpg")
+    "Human Verification Captcha/IMAGES/nature/road5.jpg")
 road_photo5 = ImageTk.PhotoImage(road5)
 
 # Resizing
 
-resized = road5.resize((200, 200), Image.ANTIALIAS)
+resized = road5.resize((200, 200), Image.LANCZOS)
 road5 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/nature/road5.jpg")
+    file="Human Verification Captcha/IMAGES/nature/road5.jpg")
 road_pic5 = ImageTk.PhotoImage(resized)
 
 
@@ -598,54 +598,54 @@ def display():
 # ======================================
 
 cat1 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat1.jpeg")
+    "Human Verification Captcha/IMAGES/animal/cat1.jpeg")
 cat_photo1 = ImageTk.PhotoImage(cat1)
 
 # Resizing
 
-resized = cat1.resize((200, 200), Image.ANTIALIAS)
+resized = cat1.resize((200, 200), Image.LANCZOS)
 cat1 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat1.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/cat1.jpeg")
 cat_pic1 = ImageTk.PhotoImage(resized)
 
 #   Including the images
 
 cat2 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat2.jpeg")
+    "Human Verification Captcha/IMAGES/animal/cat2.jpeg")
 cat_photo2 = ImageTk.PhotoImage(cat2)
 
 # Resizing
 
-resized = cat2.resize((200, 200), Image.ANTIALIAS)
+resized = cat2.resize((200, 200), Image.LANCZOS)
 cat2 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat2.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/cat2.jpeg")
 cat_pic2 = ImageTk.PhotoImage(resized)
 
 #   Including the images
 
 cat3 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat3.jpg")
+    "Human Verification Captcha/IMAGES/animal/cat3.jpg")
 cat_photo3 = ImageTk.PhotoImage(cat3)
 
 # Resizing
 
-resized = cat3.resize((200, 200), Image.ANTIALIAS)
+resized = cat3.resize((200, 200), Image.LANCZOS)
 cat3 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat3.jpg")
+    file="Human Verification Captcha/IMAGES/animal/cat3.jpg")
 cat_pic3 = ImageTk.PhotoImage(resized)
 
 
 #  Including the images
 
 cat4 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat4.jpeg")
+    "Human Verification Captcha/IMAGES/animal/cat4.jpeg")
 cat_photo4 = ImageTk.PhotoImage(cat4)
 
 # Resizing
 
-resized = cat4.resize((200, 200), Image.ANTIALIAS)
+resized = cat4.resize((200, 200), Image.LANCZOS)
 cat4 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/cat4.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/cat4.jpeg")
 cat_pic4 = ImageTk.PhotoImage(resized)
 
 ########################################################
@@ -656,68 +656,68 @@ cat_pic4 = ImageTk.PhotoImage(resized)
 #   Including the animals images
 
 calf1 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/calf1.jpeg")
+    "Human Verification Captcha/IMAGES/animal/calf1.jpeg")
 calf_photo1 = ImageTk.PhotoImage(calf1)
 
 # Resizing
 
-resized = calf1.resize((200, 200), Image.ANTIALIAS)
+resized = calf1.resize((200, 200), Image.LANCZOS)
 calf1 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/calf1.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/calf1.jpeg")
 calf_pic1 = ImageTk.PhotoImage(resized)
 
 #   Including the animals images
 
 calf2 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/calf2.jpeg")
+    "Human Verification Captcha/IMAGES/animal/calf2.jpeg")
 calf_photo2 = ImageTk.PhotoImage(calf2)
 
 # Resizing
 
-resized = calf2.resize((200, 200), Image.ANTIALIAS)
+resized = calf2.resize((200, 200), Image.LANCZOS)
 calf2 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/calf2.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/calf2.jpeg")
 calf_pic2 = ImageTk.PhotoImage(resized)
 
 
 #   Including the animals images
 
 dog1 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog1.jpeg")
+    "Human Verification Captcha/IMAGES/animal/dog1.jpeg")
 dog_photo1 = ImageTk.PhotoImage(dog1)
 
 # Resizing
 
-resized = dog1.resize((200, 200), Image.ANTIALIAS)
+resized = dog1.resize((200, 200), Image.LANCZOS)
 dog1 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog1.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/dog1.jpeg")
 dog_pic1 = ImageTk.PhotoImage(resized)
 
 
 #   Including the animals images
 
 dog2 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog2.jpeg")
+    "Human Verification Captcha/IMAGES/animal/dog2.jpeg")
 dog_photo2 = ImageTk.PhotoImage(dog2)
 
 # Resizing
 
-resized = dog2.resize((200, 200), Image.ANTIALIAS)
+resized = dog2.resize((200, 200), Image.LANCZOS)
 dog2 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog2.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/dog2.jpeg")
 dog_pic2 = ImageTk.PhotoImage(resized)
 
 #   Including the animals images
 
 dog3 = Image.open(
-    "D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog3.jpeg")
+    "Human Verification Captcha/IMAGES/animal/dog3.jpeg")
 dog_photo3 = ImageTk.PhotoImage(dog3)
 
 # Resizing
 
-resized = dog3.resize((200, 200), Image.ANTIALIAS)
+resized = dog3.resize((200, 200), Image.LANCZOS)
 dog3 = ImageTk.PhotoImage(
-    file="D:/Projects/Projects/Human Verification Captcha/IMAGES/animal/dog3.jpeg")
+    file="Human Verification Captcha/IMAGES/animal/dog3.jpeg")
 dog_pic3 = ImageTk.PhotoImage(resized)
 
 # =========================================================================
